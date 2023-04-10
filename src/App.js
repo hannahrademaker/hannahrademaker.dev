@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { useState } from "react";
+import { ThemeProvider } from "@mui/material/styles";
+import { lightTheme, darkTheme } from "./theme";
+import Home from "./Home";
+import MouseFollower from "./MouseFollower";
+import Nav from "./Nav";
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState(darkTheme);
+  const toggleTheme = () => {
+    setTheme(theme === lightTheme ? darkTheme : lightTheme);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Nav />
+      <MouseFollower />
+      <Home onToggleTheme={toggleTheme} />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
