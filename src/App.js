@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./theme";
