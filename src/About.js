@@ -40,7 +40,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="./public/hannahrad.png"
+              src="/public/hannahrad.png"
               alt="Hannah Rademaker"
               className="about-image"
             />
