@@ -62,8 +62,8 @@ const About = () => {
             <p>
               Now, I'm using my diverse skillset to make a difference in various
               ways. My portfolio website showcases my coding projects and
-              modeling portfolio. Thank you for visiting, and I hope you enjoy
-              exploring my work!
+              skills. Thank you for visiting, and I hope you enjoy exploring my
+              work!
             </p>
           </motion.div>
         </div>
