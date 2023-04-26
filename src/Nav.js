@@ -7,6 +7,8 @@ import Box from "@mui/material/Box";
 import { Link as ScrollLink } from "react-scroll";
 
 const NavBar = () => {
+  const resumeUrl =
+    "https://www.dropbox.com/home?preview=HannahRademakerResume.pdf";
   return (
     <AppBar
       position="static"
@@ -84,6 +86,17 @@ const NavBar = () => {
               >
                 Contact
               </ScrollLink>
+            </Box>
+            <Box component="li" sx={{ ml: 2 }}>
+              <a
+                href="https://www.dropbox.com/home?preview=HannahRademakerResume.pdf"
+                className="hover"
+                to={resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </Box>
           </Box>
         </nav>
