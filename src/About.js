@@ -60,8 +60,8 @@ const About = () => {
               PostgreSQL. Bringing a diverse background encompassing real estate
               development, startup internships, and an intensive coding
               bootcamp. Eager to apply my enthusiasm for technology, strong work
-              ethic, and experience in multiple industries to make a meaningful
-              impact within a dynamic software development team.
+              ethic, and technical skills to make a meaningful impact within a
+              dynamic software development team.
             </p>
           </motion.div>
         </div>
