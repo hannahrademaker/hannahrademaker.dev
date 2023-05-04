@@ -19,7 +19,6 @@ const NavBar = () => {
           aria-label="menu"
           sx={{ mr: 2 }}
         >
-          {/* You can add a logo icon here if needed */}
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             HR
           </Typography>
@@ -74,7 +73,7 @@ const NavBar = () => {
                 Projects
               </ScrollLink>
             </Box>
-            <Box component="li">
+            {/* <Box component="li">
               <ScrollLink
                 className="hover"
                 to="contact"
@@ -84,11 +83,17 @@ const NavBar = () => {
               >
                 Contact
               </ScrollLink>
-            </Box>
+            </Box> */}
+
             <Box component="li" sx={{ ml: 2 }}>
-              <div className="hover">
+              <Box
+                sx={{
+                  color: "text.secondary",
+                  "&:hover": { color: "#64ffda", textDecoration: "none" },
+                }}
+              >
                 <Resume />
-              </div>
+              </Box>
             </Box>
           </Box>
         </nav>

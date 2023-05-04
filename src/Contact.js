@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <Box id="contact" py={10}>
       <Box>
-        {/* Contact Me Section */}
         <Box py={10}>
           <Typography variant="h4" textAlign="center" mb={5}>
             Contact Me

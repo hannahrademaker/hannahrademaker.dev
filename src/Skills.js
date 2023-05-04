@@ -35,7 +35,6 @@ const Skills = () => {
 
   return (
     <Box py={10} id="skills">
-      {/* Skills & Technologies Section */}
       <Box py={10}>
         <Typography variant="h4" textAlign="center" mb={5}>
           Skills & Technologies

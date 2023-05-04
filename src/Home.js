@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Container, Typography, Box, IconButton } from "@mui/material";
-
+import { Container, Box, IconButton } from "@mui/material";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import Intro from "./Intro";
 import About from "./About";
 
@@ -35,7 +34,7 @@ const Home = ({ onToggleTheme }) => {
           <About />
           <Portfolio />
           <Skills />
-          <Contact />
+          {/* <Contact /> */}
         </Container>
       </Box>
     </div>
