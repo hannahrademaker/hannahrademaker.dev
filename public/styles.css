@@ -108,9 +108,26 @@ h3 {
   font-family: "Source Code Pro", monospace;
 }
 
+/* .resume {
+  text-decoration: none;
+}
+.resume-link {
+  color: white;
+  text-decoration: none;
+} */
+
+.hover {
+  /* Add your styles for the links here */
+  color: /* desired color */ ;
+  text-decoration: none;
+  cursor: pointer;
+
+  /* Add any other styles you want to apply */
+}
 .hover:hover {
   color: #64ffda;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .about-section {
