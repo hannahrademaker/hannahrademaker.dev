@@ -7,37 +7,19 @@ const Portfolio = () => {
       title: "DUET",
       description:
         "A social media application that allows users to find friends based on mutual interest in events",
-      image: "https://via.placeholder.com/150",
+      image: "../duetlogo.png",
     },
     {
-      title: "GROOVE-E",
+      title: "Merch.ai",
       description:
-        "An app that generates unique posters of a users favorite songs, using the OpenAI and Spotify APIs",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      title: "SINK && SEED",
-      description:
-        "An ecommerce plant shop for users to filter, search, select and purchase plants",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      title: "DUET",
-      description:
-        "A social media application that allows users to find friends based on mutual interest in events",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      title: "GROOVE-E",
-      description:
-        "An app that generates unique posters of a users favorite songs, using the OpenAI and Spotify APIs",
-      image: "https://via.placeholder.com/150",
+        "An app that generates unique posters of a users favorite songs, using the OpenAI API",
+      image: "../merchailogo.png",
     },
     {
       title: "SINK && SEED",
       description:
         "An ecommerce plant shop for users to filter, search, select and purchase plants",
-      image: "https://via.placeholder.com/150",
+      image: "../sinkandseedlogo.png",
     },
   ];
 
@@ -57,9 +39,7 @@ const Portfolio = () => {
   return (
     <div id="projects">
       <div className="portfolio">
-        {/* Projects Section */}
         <div className="projects-section">
-          {/* <h2 className="projects-title">Projects</h2> */}
           <div className="projects-grid">
             {projects.map((project, index) => (
               <motion.div

@@ -55,15 +55,13 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <p>
-              I started my career as a model and then transitioned into real
-              estate development. Along the way, I discovered my love for coding
-              and graduated from Fullstack Academy's coding bootcamp.
-            </p>
-            <p>
-              Now, I'm using my diverse skillset to make a difference in various
-              ways. My portfolio website showcases my coding projects and
-              skills. Thank you for visiting, and I hope you enjoy exploring my
-              work!
+              Fullstack software developer proficient in Javascript, React, and
+              Node.js, with experience building REST APIs using Express and
+              PostgreSQL. Bringing a diverse background encompassing real estate
+              development, startup internships, and an intensive coding
+              bootcamp. Eager to apply my enthusiasm for technology, strong work
+              ethic, and experience in multiple industries to make a meaningful
+              impact within a dynamic software development team.
             </p>
           </motion.div>
         </div>
