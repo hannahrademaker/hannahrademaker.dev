@@ -12,7 +12,7 @@ const NavBar = () => {
       sx={{ backgroundColor: "background.default", color: "text.primary" }}
     >
       <Toolbar>
-        <img src="../HRlogo.png" alt="logo" className="logo" />
+        <img src="../2.png" alt="logo" className="logo" />
         <Box sx={{ flexGrow: 1 }} />
         <nav className="navStyles">
           <Box

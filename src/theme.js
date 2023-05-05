@@ -4,6 +4,10 @@ const lightTheme = createTheme({
   palette: {
     mode: "light",
   },
+  text: {
+    primary: "#0B192E",
+    secondary: "#57DCE2",
+  },
   typography: {
     fontfamily: "Source Code Pro",
   },
