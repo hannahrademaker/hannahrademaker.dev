@@ -4,6 +4,12 @@
   font-family: "Source Code Pro", monospace;
 }
 
+.logo {
+  height: 5%;
+  width: 5%;
+  float: left;
+}
+
 .mouse-container {
   width: 100vw;
   height: 100vh;

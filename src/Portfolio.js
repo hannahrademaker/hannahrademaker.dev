@@ -50,7 +50,7 @@ const Portfolio = () => {
                   opacity: scrollY > index * 100 ? 1 : 0,
                   y: scrollY > index * 100 ? 0 : 100,
                 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 2 }}
               >
                 <div className="project-image-container">
                   <img
