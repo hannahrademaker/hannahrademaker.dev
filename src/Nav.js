@@ -1,7 +1,8 @@
 import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-
+import Typography from "@mui/material/Typography";
+import IconButton from "@mui/material/IconButton";
 import Box from "@mui/material/Box";
 import { Link as ScrollLink } from "react-scroll";
 import Resume from "./Resume";
@@ -12,7 +13,16 @@ const NavBar = () => {
       sx={{ backgroundColor: "background.default", color: "text.primary" }}
     >
       <Toolbar>
-        <img src="../2.png" alt="logo" className="logo" />
+        <IconButton
+          edge="start"
+          color="inherit"
+          aria-label="menu"
+          sx={{ mr: 2 }}
+        >
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            HR
+          </Typography>
+        </IconButton>
         <Box sx={{ flexGrow: 1 }} />
         <nav className="navStyles">
           <Box
